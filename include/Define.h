@@ -1,0 +1,16 @@
+#ifndef DEFINE_H_INCLUDED
+#define DEFINE_H_INCLUDED
+
+#define MAX_FPS 60
+#define DEFAULT_FPS 60
+
+#define MAP_HEIGHT 15
+#define MAP_WIDTH 31
+
+#define BLOCK_SIZE 32
+
+#define VIEWPORT_HEIGHT 400
+#define VIEWPORT_WIDTH 672
+
+
+#endif // DEFINE_H_INCLUDED

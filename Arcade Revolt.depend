@@ -1,0 +1,519 @@
+# depslib dependency file v1.0
+1335113868 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\main.cpp
+	<stdlib.h>
+	"Game.h"
+	<SDL.h>
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255804064 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_platform.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\begin_code.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\close_code.h
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_keysym.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1335434021 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\game.cpp
+	"Game.h"
+
+1335433985 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\game.h
+	<SDL.h>
+	"Sprite.h"
+	"Event.h"
+	"Animation.h"
+	"Entity.h"
+	"FPS.h"
+	"Define.h"
+	"Map.h"
+	"Valcom.h"
+	"Oneal.h"
+	"Dahl.h"
+	"Minvo.h"
+	"Ovape.h"
+	"Doria.h"
+	"Pass.h"
+	"Pontan.h"
+	<iostream>
+	<time.h>
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255804064 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_platform.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\begin_code.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\close_code.h
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_keysym.h
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804049 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1334913319 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sprite.h
+	<SDL.h>
+	<SDL_image.h>
+
+1334914332 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\sprite.cpp
+	<SDL.h>
+	"Sprite.h"
+
+1334969638 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\event.h
+	<SDL.h>
+	<Define.h>
+
+1335298528 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\event.cpp
+	"Event.h"
+
+1335122294 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\animation.cpp
+	"Animation.h"
+
+1335122505 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\animation.h
+	<SDL.h>
+
+1335435266 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\entity.cpp
+	"Entity.h"
+
+1335348487 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\entity.h
+	<vector>
+	"Animation.h"
+	"Sprite.h"
+	"FPS.h"
+	"Map.h"
+	<iostream>
+
+1334781172 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\tanimation.h
+	<SDL.h>
+
+1334781161 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\tanimation.cpp
+	"TAnimation.h"
+
+1325788834 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1335131574 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\fps.h
+	<SDL.h>
+	<Define.h>
+
+1335132767 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\fps.cpp
+	"FPS.h"
+
+1335230316 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\define.h
+
+1335396549 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\map.cpp
+	"Map.h"
+
+1335348569 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\map.h
+	<vector>
+	<SDL.h>
+	<Define.h>
+	<Tile.h>
+	<Sprite.h>
+	<iostream>
+
+1335131081 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\tile.h
+
+1335131388 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\tile.cpp
+	"Tile.h"
+
+1335432159 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\valcom.cpp
+	"Valcom.h"
+
+1335433931 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\valcom.h
+	<Entity.h>
+	<Define.h>
+	<iostream>
+
+1335433918 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\oneal.h
+	<Entity.h>
+	<Define.h>
+	<iostream>
+
+1335432166 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\oneal.cpp
+	"Oneal.h"
+
+1335433907 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\dahl.h
+	<Entity.h>
+	<Define.h>
+
+1335432179 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\dahl.cpp
+	"Dahl.h"
+
+1335433914 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\minvo.h
+	<Entity.h>
+	<Define.h>
+
+1335433921 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\ovape.h
+	<Entity.h>
+	<Define.h>
+	<iostream>
+
+1335433911 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\doria.h
+	<Entity.h>
+	<Define.h>
+
+1335433924 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\pass.h
+	<Entity.h>
+	<Define.h>
+	<iostream>
+
+1335433928 c:\users\charnad\documents\codeblocks projects\arcade revolt\include\enemies\pontan.h
+	<Entity.h>
+	<Define.h>
+	<iostream>
+
+1335432380 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\doria.cpp
+	"Doria.h"
+
+1335432396 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\minvo.cpp
+	"Minvo.h"
+
+1335434420 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\ovape.cpp
+	"Ovape.h"
+
+1335432531 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\pass.cpp
+	"Pass.h"
+
+1335432526 source:c:\users\charnad\documents\codeblocks projects\arcade revolt\src\enemies\pontan.cpp
+	"Pontan.h"
+
