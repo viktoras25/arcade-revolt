@@ -9,7 +9,7 @@
 
 #define BLOCK_SIZE 32
 
-#define VIEWPORT_HEIGHT 400
+#define VIEWPORT_HEIGHT 472
 #define VIEWPORT_WIDTH 672
 
 

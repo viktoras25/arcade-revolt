@@ -2,6 +2,7 @@
 #define ANIMATION_H
 
 #include <SDL.h>
+#include <vector>
 
 class Animation {
     private:
@@ -12,11 +13,15 @@ class Animation {
         unsigned long OldTime;
 
     public:
+        static std::vector<Animation*> AnimationList;
+
         int MaxFrames;
         bool Oscillate;
+        bool Once;
 
     public:
         Animation();
+        ~Animation();
         void Animate();
 
         void SetFrameRate(int Rate);

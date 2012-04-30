@@ -2,12 +2,11 @@
 #define VALCOM_H
 
 #include <Entity.h>
+#include <Enemy.h>
 #include <Define.h>
 #include <iostream>
 
-class Valcom : public Entity {
-    private:
-        int Points;
+class Valcom : public Enemy {
     public:
         Valcom();
         virtual bool Init();
@@ -17,6 +16,7 @@ class Valcom : public Entity {
         virtual bool Collision(Entity* E);
         virtual void Cleanup();
         static bool Create();
+        virtual void Die();
 };
 
 #endif // VALCOM_H

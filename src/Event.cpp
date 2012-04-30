@@ -151,6 +151,9 @@ void Event::OnKeyDown(SDLKey key, SDLMod mod, Uint16 unicode) {
         case SDLK_SPACE:
             SDL_Delay(100);
         break;
+        case SDLK_k:
+            Enemy::Kill();
+        break;
         default:
         break;
     }

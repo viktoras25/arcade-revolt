@@ -4,6 +4,7 @@ Doria::Doria() {
     Speed = 1;
     File = "./gfx/doria.png";
     Points = 2000;
+    Flags |= ENTITY_FLAG_GHOST;
 
     int direction = rand()%3;
     switch (direction) {

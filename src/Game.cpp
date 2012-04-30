@@ -41,14 +41,18 @@ bool Game::Init() {
     Map::Instance.Init();
     Map::Instance.Load("./gfx/sprites.png");
 
-    Valcom::Create();
-    Oneal::Create();
-    Dahl::Create();
-    Minvo::Create();
-    Ovape::Create();
-    Doria::Create();
-    Pass::Create();
-    Pontan::Create();
+
+
+    for (int i = 0; i < 100; i++) {
+        Valcom::Create();
+    }
+//    Oneal::Create();
+//    Dahl::Create();
+//    Minvo::Create();
+//    Ovape::Create();
+//    Doria::Create();
+//    Pass::Create();
+//    Pontan::Create();
 
     ViewX = 0;
     ViewY = 0;
@@ -59,9 +63,15 @@ bool Game::Init() {
 
 void Game::Loop() {
 
+    // Handle simple animations
+    for (unsigned int i = 0; i < Animation::AnimationList.size(); i++) {
+        if (!Animation::AnimationList[i]) continue;
+        Animation::AnimationList[i]->Animate();
+    }
+
+    // Handle entities
     for (unsigned int i = 0; i < Entity::EntityList.size(); i++) {
         if (!Entity::EntityList[i]) continue;
-        //std::cout << "Loop " << Entity::EntityList[i] << std::endl;
         Entity::EntityList[i]->Loop();
     }
 

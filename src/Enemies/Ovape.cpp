@@ -4,6 +4,7 @@ Ovape::Ovape() {
     Speed = 0.5;
     File = "./gfx/ovape.png";
     Points = 1000;
+    Flags |= ENTITY_FLAG_GHOST;
 
     int direction = rand()%3;
     switch (direction) {

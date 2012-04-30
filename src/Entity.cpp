@@ -176,6 +176,7 @@ bool Entity::CanMove(int NewX, int NewY) {
     for (int i=top; i < top+2; i++) {
         for (int j = left; j < left+2; j++) {
             if (Map::Instance.Tiles[i][j] == NULL) continue;
+            if (Flags & ENTITY_FLAG_GHOST && Map::Instance.Tiles[i][j]->Type == TILE_TYPE_BRICK) continue;
             if (Collides(NewX, NewY, i*BLOCK_SIZE, j*BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE)) {
                 //EntityCollision::CollisionList.push_back(new EntityCollision(this, NULL));
                 return false;

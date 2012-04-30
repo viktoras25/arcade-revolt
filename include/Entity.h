@@ -15,10 +15,10 @@ enum {
 };
 
 enum {
-    ENTITY_FLAG_NONE = 0x00000000,
-    ENTITY_FLAG_GRAVITY = 0x00000001,
-    ENTITY_FLAG_GHOST = 0x00000002,
-    ENTITY_FLAG_MAPONLY = 0x00000003
+    ENTITY_FLAG_NONE = 0,
+    ENTITY_FLAG_GRAVITY,
+    ENTITY_FLAG_GHOST,
+    ENTITY_FLAG_MAPONLY
 };
 
 class Entity {
@@ -46,7 +46,6 @@ class Entity {
         int AnimState;
 
         int Type;
-        bool Dead;
         int Flags;
 
         static std::vector<Entity*> EntityList;

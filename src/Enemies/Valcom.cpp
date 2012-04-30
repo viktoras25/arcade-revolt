@@ -123,3 +123,9 @@ bool Valcom::Create() {
 
     return true;
 }
+
+void Valcom::Die() {
+    DeadTimer = SDL_GetTicks();
+    Anim.MaxFrames = 1;
+    AnimState = 3;
+}

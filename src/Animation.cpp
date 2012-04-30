@@ -1,5 +1,7 @@
 #include "Animation.h"
 
+std::vector<Animation*> Animation::AnimationList;
+
 Animation::Animation() {
     CurrentFrame    = 0;
     MaxFrames       = 0;
@@ -19,6 +21,10 @@ void Animation::Animate() {
     OldTime = SDL_GetTicks();
 
     CurrentFrame += FrameInc;
+
+    if (Once && CurrentFrame > MaxFrames) {
+        ~Animation();
+    }
 
     if(Oscillate) {
         if(FrameInc > 0) {
@@ -50,3 +56,5 @@ void Animation::SetCurrentFrame(int Frame) {
 int Animation::GetCurrentFrame() {
     return CurrentFrame;
 }
+
+Animation::~Animation() {}
