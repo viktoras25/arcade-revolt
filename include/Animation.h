@@ -18,6 +18,7 @@ class Animation {
         int MaxFrames;
         bool Oscillate;
         bool Once;
+        bool Finished;
 
     public:
         Animation();

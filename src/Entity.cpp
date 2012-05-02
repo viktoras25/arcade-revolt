@@ -56,12 +56,6 @@ void Entity::Loop() {
 
 void Entity::Render(SDL_Surface* Screen, int vX, int vY) {
     if (Surface == NULL || Screen == NULL) return;
-
-    if (SpeedX > 0) AnimState = 0;
-    if (SpeedX < 0) AnimState = 1;
-    if (SpeedY > 0) AnimState = 0;
-    if (SpeedY < 0) AnimState = 1;
-
     Sprite::Draw(Screen, Surface, vX+X, vY+Y, Anim.GetCurrentFrame() * Width, AnimState*Height, Width, Height);
 }
 

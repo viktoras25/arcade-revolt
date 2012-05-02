@@ -2,7 +2,8 @@
 #define EVENT_H
 
 #include <SDL.h>
-#include <Define.h>
+#include "Define.h"
+#include "Enemy.h"
 
 class Event
 {

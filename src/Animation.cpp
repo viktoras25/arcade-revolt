@@ -11,6 +11,7 @@ Animation::Animation() {
     OldTime         = 0;
 
     Oscillate       = false;
+    Finished        = false;
 }
 
 void Animation::Animate() {
@@ -23,23 +24,14 @@ void Animation::Animate() {
     CurrentFrame += FrameInc;
 
     if (Once && CurrentFrame > MaxFrames) {
-        ~Animation();
+        Finished = true;
+        return;
     }
 
-    if(Oscillate) {
-        if(FrameInc > 0) {
-            if(CurrentFrame >= MaxFrames) {
-                FrameInc = -FrameInc;
-            }
-        } else {
-            if(CurrentFrame <= 0) {
-                FrameInc = -FrameInc;
-            }
-        }
-    } else {
-        if(CurrentFrame >= MaxFrames) {
-            CurrentFrame = 0;
-        }
+    if(Oscillate && CurrentFrame >= MaxFrames) {
+        CurrentFrame = 0;
+    } else if(CurrentFrame >= MaxFrames || CurrentFrame <= 0) {
+        FrameInc = -FrameInc;
     }
 }
 

@@ -64,7 +64,7 @@ bool Map::Load(const char* File) {
 
 void Map::Render(SDL_Surface* Screen, int OffsetX, int OffsetY) {
     if (Surface == NULL || Screen == NULL) return;
-    Sprite::Draw(Screen, Surface, OffsetX, OffsetY);
+    Sprite::Draw(Screen, Surface, 0, 0, -OffsetX, -OffsetY, VIEWPORT_WIDTH, VIEWPORT_HEIGHT);
 }
 
 void Map::Cleanup() {
