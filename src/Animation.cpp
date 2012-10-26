@@ -6,12 +6,38 @@ Animation::Animation() {
     CurrentFrame    = 0;
     MaxFrames       = 0;
     FrameInc        = 1;
+    AnimState       = 0;
 
     FrameRate       = 100; //Milliseconds
     OldTime         = 0;
 
     Oscillate       = false;
-    Finished        = false;
+    Dispose         = false;
+
+    Surface = NULL;
+}
+
+Animation::Animation(const char* File, unsigned int W, unsigned int H, int FrameRate) {
+
+    Surface = NULL;
+
+    Surface = Sprite::Load(File);
+
+    Sprite::Transparent(Surface, 255, 0, 255);
+
+    Width = W;
+    Height = H;
+
+    CurrentFrame    = 0;
+    MaxFrames       = 0;
+    FrameInc        = 1;
+    AnimState       = 0;
+
+    FrameRate       = 100; //Milliseconds
+    OldTime         = 0;
+
+    Oscillate       = false;
+    Dispose         = false;
 }
 
 void Animation::Animate() {
@@ -24,7 +50,7 @@ void Animation::Animate() {
     CurrentFrame += FrameInc;
 
     if (Once && CurrentFrame > MaxFrames) {
-        Finished = true;
+        Dispose = true;
         return;
     }
 
@@ -49,4 +75,11 @@ int Animation::GetCurrentFrame() {
     return CurrentFrame;
 }
 
-Animation::~Animation() {}
+Animation::~Animation() {
+    SDL_FreeSurface(Surface);
+}
+
+void Animation::Render(SDL_Surface* Screen, int X, int Y) {
+    if (Surface == NULL || Screen == NULL) return;
+    Sprite::Draw(Screen, Surface, X, Y, CurrentFrame*Width, AnimState*Height, Width, Height);
+}

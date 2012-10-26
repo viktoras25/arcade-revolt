@@ -41,7 +41,10 @@ bool Game::Init() {
     Map::Instance.Init();
     Map::Instance.Load("./gfx/sprites.png");
 
-
+    Animation* death = new Animation("./gfx/death.png", BLOCK_SIZE, BLOCK_SIZE, 3);
+    death->Once = true;
+    death->FrameRate = 200;
+    Animation::AnimationList.push_back(death);
 
     for (int i = 0; i < 1; i++) {
         Valcom::Create();
@@ -66,6 +69,12 @@ void Game::Loop() {
     // Handle simple animations
     for (unsigned int i = 0; i < Animation::AnimationList.size(); i++) {
         if (!Animation::AnimationList[i]) continue;
+        if (Animation::AnimationList[i]->Dispose == true) {
+            std::cout << "Dispose" << std::endl;
+            //Animation::AnimationList[i] = NULL;
+            Animation::AnimationList.erase(Animation::AnimationList.begin() + i);
+        }
+        std::cout << Animation::AnimationList[i]->GetCurrentFrame() << " " << Animation::AnimationList[i]->FrameRate << " " << Animation::AnimationList[i]->FrameInc << std::endl;
         Animation::AnimationList[i]->Animate();
     }
 
@@ -115,6 +124,11 @@ void Game::Render() {
     for (unsigned int i = 0; i < Entity::EntityList.size(); i++) {
         if (!Entity::EntityList[i]) continue;
         Entity::EntityList[i]->Render(Screen, ViewX, ViewY);
+    }
+
+    for (unsigned int i = 0; i < Animation::AnimationList.size(); i++) {
+        if (!Animation::AnimationList[i]) continue;
+        Animation::AnimationList[i]->Render(Screen, ViewX, ViewY);
     }
 
     SDL_Flip(Screen);
